@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+    font-family: 'DynaPuff', cursive;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6em;
+}
+
+.container {
+    background-image: url(todolist.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding-bottom: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    border-radius: 30px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.checkbox-styling {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+  }
+
+.to-dos {
+    margin-top: 25px;
+}
