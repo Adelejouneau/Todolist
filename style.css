@@ -15,12 +15,11 @@ body {
    }
 }
 
-
 h1{
     display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 6em;
+  font-size: 3em;
 }
 
 .container {
@@ -31,15 +30,20 @@ h1{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-left: 660px;
+  width: 900px;
+  margin-left: 350px;
   margin-right: 640px;
   padding-bottom: 500px;
+  position: absolute;
 }
 
 .form{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 70px;
+    margin-left: 70px;
+    position: relative;
 }
 
 #inputField {
@@ -65,6 +69,7 @@ h1{
 }
 
 .paragraph-styling {
+    
     margin: 0;
     cursor: pointer;
     font-size: 20px;
